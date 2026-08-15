@@ -194,6 +194,7 @@ ul { list-style: none; }
 }
 
 .nav-logo svg { width: 36px; height: 36px; }
+.nav-logo-img { height: 44px; width: auto; display: block; }
 
 .nav-logo-text {
   display: flex;
@@ -317,6 +318,7 @@ ul { list-style: none; }
 
 .footer-logo { display: flex; align-items: center; gap: 12px; }
 .footer-logo svg { width: 38px; height: 38px; }
+.footer-logo-img { height: 52px; width: auto; display: block; }
 .footer-logo-text .nav-logo-name { font-size: 1.1rem; }
 
 .footer-tagline {
