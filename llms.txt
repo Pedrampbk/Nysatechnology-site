@@ -1,0 +1,34 @@
+# Nysa Technology
+
+> Hands-on virtual CISO (vCISO) and compliance execution firm. Nysa builds and runs security compliance programs directly — SOC 2, HIPAA, HITRUST, ISO 27001, ISO 42001, GDPR, NIST CSF, and PCI-DSS — rather than just advising on them.
+
+## What Nysa Technology does
+
+Nysa Technology is a hands-on vCISO and compliance services provider for small and mid-sized companies, primarily SaaS and healthcare-adjacent businesses that need to reach or maintain a compliance certification. Unlike advisory-only consultants, Nysa's team implements controls, writes policies, manages audits, and stays engaged through certification and beyond.
+
+Core services:
+- Hands-On vCISO: end-to-end build of a security program from gap assessment through first certification.
+- Compliance frameworks supported: SOC 2 (Type I and Type II), HIPAA, HITRUST, ISO 27001, ISO 42001 (AI management systems), GDPR, NIST CSF, PCI-DSS.
+- ISO 27001 & ISO 42001 Internal Audits: independent, standalone internal audits (clause 9.2) for companies whose ISMS/AIMS already exists, including programs built by other consultants.
+- HIPAA Security Risk Assessment: an independent, third-party risk analysis following the HHS/OCR Security Risk Assessment methodology — a gap assessment, not a certification or Type I/II audit — with optional follow-on remediation support.
+- Ongoing compliance management, policy development, and audit management for companies maintaining an existing certification.
+
+## Who this is for
+
+Companies preparing for their first compliance certification, companies that built a compliance program in-house or with another consultant and need an independent auditor, and companies that already hold a certification and need the periodic internal audit or risk assessment required to keep it.
+
+## Key pages
+
+- Services overview: https://nysatechnology.com/services
+- Compliance frameworks (SOC 2, HIPAA, HITRUST, ISO 27001/42001, GDPR, NIST CSF, PCI-DSS): https://nysatechnology.com/compliance
+- ISO Internal Audits & HIPAA Security Risk Assessment: https://nysatechnology.com/internal-audits
+- Solutions / Partners: https://nysatechnology.com/partners
+- About: https://nysatechnology.com/about
+- Blog: https://nysatechnology.com/blog
+- Contact: https://nysatechnology.com/contact
+
+## Contact
+
+Email: info@nysatechnology.com
+Phone: (949) 414-9772
+Consultation booking: https://calendly.com/pedrambk
