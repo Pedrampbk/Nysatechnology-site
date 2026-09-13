@@ -113,6 +113,66 @@
     .cred-row { display:flex;align-items:center;gap:10px; }
     .cred-icon { width:28px;height:28px;border-radius:var(--radius-sm);background:var(--accent-soft);display:flex;align-items:center;justify-content:center;font-size:0.8rem;color:var(--accent-2);font-weight:700;flex-shrink:0; }
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://nysatechnology.com/#organization",
+        "name": "Nysa Technology",
+        "alternateName": "NysaTech",
+        "url": "https://nysatechnology.com/",
+        "logo": "https://nysatechnology.com/logo.png",
+        "image": "https://nysatechnology.com/logo-social.png",
+        "description": "Hands-on virtual CISO (vCISO) and compliance execution firm. Nysa builds and runs security compliance programs directly — SOC 2, HIPAA, HITRUST, ISO 27001, ISO 42001, GDPR, NIST CSF, and PCI-DSS — rather than just advising on them.",
+        "email": "info@nysatechnology.com",
+        "telephone": "+1-949-414-9772",
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/nysatech"
+        ],
+        "founder": { "@id": "https://nysatechnology.com/about#pedram-kalantari" },
+        "makesOffer": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hands-On vCISO", "description": "End-to-end build of a security program from gap assessment through first certification." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SOC 2 Compliance (Type I & Type II)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HIPAA Compliance & Security Risk Assessment" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HITRUST Certification" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "ISO 27001 & ISO 42001 Certification and Internal Audits" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "GDPR Compliance" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "NIST CSF Compliance" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "PCI-DSS Compliance" } }
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://nysatechnology.com/about#pedram-kalantari",
+        "name": "Pedram Kalantari",
+        "jobTitle": "Founder & vCISO",
+        "worksFor": { "@id": "https://nysatechnology.com/#organization" },
+        "url": "https://nysatechnology.com/about",
+        "email": "info@nysatechnology.com",
+        "hasCredential": {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "CISSP — Certified Information Systems Security Professional"
+        },
+        "knowsAbout": ["SOC 2", "HIPAA", "HITRUST", "ISO 27001", "ISO 42001", "GDPR", "NIST CSF", "PCI-DSS", "Virtual CISO", "Security Compliance"],
+        "description": "Founder of Nysa Technology. CISSP-certified. Former CISO at Movn Health and virtual CISO at Cayaba Care, building compliance programs across HITRUST, SOC 2, HIPAA, NIST, and ISO 27001."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://nysatechnology.com/#website",
+        "url": "https://nysatechnology.com/",
+        "name": "Nysa Technology",
+        "publisher": { "@id": "https://nysatechnology.com/#organization" }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -138,7 +198,7 @@
       <a href="blog.html" class="nav-link">Blog</a>
       <a href="contact.html" class="nav-link">Contact</a><a href="careers.html" class="nav-link">Careers</a>
     </div>
-    <div class="nav-cta"><a href="https://calendly.com/pedrambk" target="_blank" rel="noopener" class="btn btn-primary">Book a Consultation</a></div>
+    <div class="nav-cta"><a href="https://nysatechnology.com/meet" target="_blank" rel="noopener" class="btn btn-primary">Book a Consultation</a></div>
     <div class="nav-hamburger" id="hamburger"><span></span><span></span><span></span></div>
   </div>
 </nav>
@@ -151,7 +211,7 @@
   <a href="about.html" class="nav-link">About</a>
   <a href="blog.html" class="nav-link">Blog</a>
   <a href="contact.html" class="nav-link">Contact</a><a href="careers.html" class="nav-link">Careers</a>
-  <a href="https://calendly.com/pedrambk" target="_blank" rel="noopener" class="btn btn-primary">Book a Consultation</a>
+  <a href="https://nysatechnology.com/meet" target="_blank" rel="noopener" class="btn btn-primary">Book a Consultation</a>
 </div>
 
 <!-- ============================================================
@@ -328,7 +388,7 @@
       </div>
       <div class="footer-col"><div class="footer-col-title">Services</div><ul><li><a href="services.html">vCISO Services</a></li><li><a href="services.html">Gap Assessment</a></li><li><a href="services.html">Policy Development</a></li><li><a href="services.html">Audit Management</a></li><li><a href="services.html">Ongoing Compliance</a></li><li><a href="internal-audits.html">ISO Internal Audits</a></li></ul></div>
       <div class="footer-col"><div class="footer-col-title">Compliance</div><ul><li><a href="compliance.html">SOC 2</a></li><li><a href="compliance.html">HIPAA</a></li><li><a href="compliance.html">HITRUST</a></li><li><a href="compliance.html">ISO 27001</a></li><li><a href="compliance.html">ISO 42001</a></li><li><a href="compliance.html">GDPR</a></li><li><a href="compliance.html">NIST CSF</a></li><li><a href="compliance.html">PCI-DSS</a></li></ul></div>
-      <div class="footer-col"><div class="footer-col-title">Company</div><ul><li><a href="about.html">About</a></li><li><a href="blog.html">Blog</a></li><li><a href="partners.html">Solutions</a></li><li><a href="contact.html">Contact</a></li><li><a href="careers.html">Careers</a></li><li><a href="https://calendly.com/pedrambk" target="_blank" rel="noopener">Book a Consultation</a></li></ul></div>
+      <div class="footer-col"><div class="footer-col-title">Company</div><ul><li><a href="about.html">About</a></li><li><a href="blog.html">Blog</a></li><li><a href="partners.html">Solutions</a></li><li><a href="contact.html">Contact</a></li><li><a href="careers.html">Careers</a></li><li><a href="https://nysatechnology.com/meet" target="_blank" rel="noopener">Book a Consultation</a></li></ul></div>
     </div>
     <div class="footer-bottom">
       <p class="footer-copy">© 2026 Nysa Technology. All rights reserved.</p>

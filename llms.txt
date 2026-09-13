@@ -17,6 +17,10 @@ Core services:
 
 Companies preparing for their first compliance certification, companies that built a compliance program in-house or with another consultant and need an independent auditor, and companies that already hold a certification and need the periodic internal audit or risk assessment required to keep it.
 
+## Founder
+
+Pedram Kalantari, CISSP-certified, Founder & vCISO. Former CISO at Movn Health and virtual CISO at Cayaba Care, with hands-on experience building HITRUST, SOC 2, HIPAA, NIST, and ISO 27001 programs.
+
 ## Key pages
 
 - Services overview: https://nysatechnology.com/services
@@ -25,10 +29,12 @@ Companies preparing for their first compliance certification, companies that bui
 - Solutions / Partners: https://nysatechnology.com/partners
 - About: https://nysatechnology.com/about
 - Blog: https://nysatechnology.com/blog
+- Careers: https://nysatechnology.com/careers
 - Contact: https://nysatechnology.com/contact
+- Book a free consultation: https://nysatechnology.com/meet
 
 ## Contact
 
 Email: info@nysatechnology.com
 Phone: (949) 414-9772
-Consultation booking: https://calendly.com/pedrambk
+Consultation booking: https://nysatechnology.com/meet

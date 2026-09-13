@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GBKCE5B61Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-GBKCE5B61Q');
+</script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Redirecting to Booking… | Nysa Technology</title>
+<meta name="robots" content="noindex,follow" />
+<meta http-equiv="refresh" content="2;url=https://app.onecal.io/b/NysaTech" />
+<link rel="canonical" href="https://app.onecal.io/b/NysaTech" />
+<link rel="icon" href="/favicon.ico" sizes="48x48" />
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="stylesheet" href="/styles.css" />
+<style>
+  html, body {
+    height: 100%;
+  }
+  body {
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 24px;
+  }
+  .redirect-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    max-width: 420px;
+  }
+  .redirect-logo-img {
+    height: 34px;
+    width: auto;
+    object-fit: contain;
+  }
+  .redirect-msg {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-dim);
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .redirect-msg strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+  .redirect-bar-wrap {
+    width: 200px;
+    height: 2px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .redirect-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #b69d6a, #e9d9b3, #22d3ee);
+    border-radius: 2px;
+    width: 0%;
+    transition: width 1.6s cubic-bezier(0.4,0,0.2,1);
+  }
+  .redirect-fallback {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<div class="redirect-card">
+  <img src="/logo.png" alt="Nysa Technology" class="redirect-logo-img" />
+
+  <div class="redirect-bar-wrap"><div class="redirect-bar" id="redirectBar"></div></div>
+
+  <p class="redirect-msg">Redirecting you to book a time with <strong>PK</strong>&hellip;</p>
+
+  <div class="redirect-fallback">
+    <p style="margin-bottom:14px;">Not redirected automatically?</p>
+    <a href="https://app.onecal.io/b/NysaTech" class="btn btn-primary">Click here if you're not redirected automatically</a>
+  </div>
+</div>
+
+<script>
+  // Animate the progress bar for visual feedback
+  requestAnimationFrame(function () {
+    var bar = document.getElementById('redirectBar');
+    if (bar) bar.style.width = '100%';
+  });
+
+  // JavaScript redirect as a fallback to the <meta http-equiv="refresh"> above
+  setTimeout(function () {
+    window.location.href = 'https://app.onecal.io/b/NysaTech';
+  }, 1600);
+</script>
+
+</body>
+</html>
